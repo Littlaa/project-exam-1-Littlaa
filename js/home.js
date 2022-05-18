@@ -9,7 +9,8 @@ async function getPosts() {
     console.log(posts);
 
     for (let i = 0; i < posts.length; i++) {
-      carousellResults.innerHTML += `${posts[i].title.rendered}
+      carousellResults.innerHTML += `<a href="specific.html?postsId=${posts[i].postsId}">
+                                    ${posts[i].title.rendered}
                                     <img src="${posts[i].acf.image}">
                                     `;
     }
