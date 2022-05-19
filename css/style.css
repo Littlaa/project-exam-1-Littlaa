@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "candara";
+    src: url(/font/candara-light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "gabriola";
+    src: url(/font/Gabriola.ttf) format("truetype");
+}
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
