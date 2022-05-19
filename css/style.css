@@ -15,6 +15,10 @@
     max-width: 120px;
 }
 
+.hr_line {
+    border-top: 1px solid #BEC1FA;
+}
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -26,6 +30,7 @@ nav a {
     list-style-type: none;
     font-family: "gabriola", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    color: #000000;
 }
 
 main {
@@ -42,4 +47,8 @@ h1 {
 h2 {
     font-family: "gabriola", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
+}
+
+p, h3 {
+    font-family: "candara", Verdana, Geneva, Tahoma, sans-serif;
 }
