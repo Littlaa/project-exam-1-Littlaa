@@ -58,3 +58,17 @@ h2, h3 {
 p {
     font-family: "candara", Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.hr_footer {
+    border-top: 1px solid #F0D9C0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    max-width: 50px;
+}
