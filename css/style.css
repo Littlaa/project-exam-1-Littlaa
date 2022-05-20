@@ -44,11 +44,11 @@ h1 {
     font-size: 48px;
 }
 
-h2 {
+h2, h3 {
     font-family: "gabriola", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
 }
 
-p, h3 {
+p {
     font-family: "candara", Verdana, Geneva, Tahoma, sans-serif;
 }
