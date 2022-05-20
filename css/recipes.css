@@ -1,0 +1,15 @@
+.postsRecipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postsRecipes img {
+    max-width: 200px;
+}
+
+.postsRecipes a {
+    font-family: "gabriola", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: #000000;
+}
