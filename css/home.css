@@ -1,14 +1,14 @@
-.resultsCarousell {
+.resultsCarousel {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.resultsCarousell img {
+.resultsCarousel img {
     max-width: 200px;
 }
 
-.resultsCarousell a {
+.resultsCarousel a {
     font-family: "gabriola", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
     color: #000000;
