@@ -1,0 +1,16 @@
+form {
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+  }
+  
+  .form_error {
+    display: none;
+    color: #bb0505;
+    margin-bottom: 10px;
+  }
+  

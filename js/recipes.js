@@ -9,6 +9,10 @@ async function getBlogPosts() {
     console.log(posts);
 
     for (let i = 0; i < posts.length; i++) {
+      if (i === 10) {
+        break;
+      }
+
       postsResults.innerHTML += `<div>
                                     <a href="specific.html?postsId=${posts[i].id}">
                                     <div>${posts[i].title.rendered}</div>
