@@ -1,11 +1,15 @@
-form {
-    text-align: center;
-  }
-  
-  input {
+    input {
     padding: 10px;
-    margin: 10px;
-    width: 50%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  button[type=submit] {
+      background: #E8CADA;
+      border: none;
+      padding: 10px 35px 10px 35px;
+      font-family: "candara", Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 18px;
   }
   
   .form_error {
