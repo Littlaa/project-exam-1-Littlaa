@@ -61,6 +61,13 @@ p {
     font-size: 18px;
 }
 
+.containerPosts {
+    border: solid 1px;
+    padding: 30px;
+    background: #F0D9C0;
+    margin-bottom: 15px;
+}
+
 .hr_footer {
     border-top: 1px solid #F0D9C0;
 }

@@ -1,12 +1,11 @@
 const url = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard&per_page=20";
-
 const postsResults = document.querySelector(".postsRecipes");
+const loadMore = document.querySelector(".load_more");
 
 async function getBlogPosts() {
   try {
     const response = await fetch(url);
     const posts = await response.json();
-    console.log(posts);
 
     for (let i = 0; i < posts.length; i++) {
       if (i === 10) {
@@ -27,3 +26,8 @@ async function getBlogPosts() {
 }
 
 getBlogPosts(url);
+
+loadMore.onclick = function () {
+  const newUrl = url + "?per_page=12";
+  getBlogPosts(newUrl);
+};
