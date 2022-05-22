@@ -13,7 +13,7 @@ async function getBlogPosts() {
         break;
       }
 
-      postsResults.innerHTML += `<div>
+      postsResults.innerHTML += `<div class="containerPosts">
                                     <a href="specific.html?postsId=${posts[i].id}">
                                     <div>${posts[i].title.rendered}</div>
                                     <img src="${posts[i].acf.image}">
