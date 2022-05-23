@@ -23,13 +23,13 @@ async function getBlogPosts() {
 
 getBlogPosts(url);
 
+let newUrl = "";
+
 loadMore.onclick = function (url) {
   const newUrl = url + "&per_page=20";
-
+  getBlogPosts(newUrl);
   console.log(newUrl);
 };
-
-getBlogPosts(newUrl);
 
 // const URL = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard";
 
