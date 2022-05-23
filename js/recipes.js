@@ -26,7 +26,6 @@ getBlogPosts(url);
 loadMore.onclick = function () {
   const newUrl = url + "&per_page=20";
   getBlogPosts(newUrl);
-  console.log(newUrl);
 };
 
 // const URL = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard";
