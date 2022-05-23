@@ -23,8 +23,6 @@ async function getBlogPosts() {
 
 getBlogPosts(url);
 
-let newUrl = "";
-
 loadMore.onclick = function () {
   const newUrl = url + "&per_page=20";
   getBlogPosts(newUrl);
