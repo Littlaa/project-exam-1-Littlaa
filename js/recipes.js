@@ -1,5 +1,4 @@
-const baseUrl =
-  "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard";
+const baseUrl = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard";
 const postsResults = document.querySelector(".postsRecipes");
 const loadMore = document.querySelector(".load_more");
 
@@ -24,21 +23,8 @@ async function getBlogPosts(url) {
 }
 
 getBlogPosts(baseUrl);
-// const newUrl = url + "&per_page=20";
-
-// loadMore.onclick = function (newUrl) {
-//   getBlogPosts(newUrl);
-// };
 
 loadMore.onclick = function () {
   const newUrl = baseUrl + "&per_page=20";
   getBlogPosts(newUrl);
 };
-
-// const URL = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard";
-
-// loadMore.onclick = function (url) {
-//   const newUrl = URL + "&per_page=20";
-//   getBlogPosts(newUrl);
-//   console.log(newUrl);
-// };
