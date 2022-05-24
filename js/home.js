@@ -65,6 +65,7 @@ function displayPosts(items, wrapper, rows_per_page, page, pageCount) {
                                     <a href="specific.html?postsId=${item.id}">
                                     <div>${item.title.rendered}</div>
                                     <img src="${item.acf.image}">
+                                    <div class="read_more">Read More</div>
                                     </a>
                                     </div>
                                     `;
