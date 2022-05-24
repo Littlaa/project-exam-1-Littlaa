@@ -1,11 +1,10 @@
-const url =
-  "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard&per_page=20";
+const url = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard&per_page=20";
 
 const carouselResults = document.querySelector(".resultsCarousel");
 const paginationElement = document.querySelector(".pageNumbers");
 
 let current_page = 0;
-let rows = 5;
+let rows = 1;
 
 async function getPosts() {
   try {
@@ -15,7 +14,7 @@ async function getPosts() {
 
     displayPosts(posts, carouselResults, rows, current_page, pageCount);
 
-    function setupPagination(wrapper, rows_per_page) {
+    function setupPagination(wrapper) {
       let leftBtn = paginationButton("<");
       wrapper.appendChild(leftBtn);
       let rightBtn = paginationButton(">");
@@ -29,7 +28,7 @@ async function getPosts() {
       });
     }
 
-    function paginationButton(page, items) {
+    function paginationButton(page) {
       let button = document.createElement("button");
       button.innerText = page;
 

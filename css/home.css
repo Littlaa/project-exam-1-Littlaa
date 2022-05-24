@@ -1,4 +1,4 @@
-.container {
+.resultsCarousel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,10 @@
   font-family: "gabriola", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 32px;
   color: #000000;
+}
+
+.containerPosts {
+  margin: 10px;
 }
 
 /* .slider {
