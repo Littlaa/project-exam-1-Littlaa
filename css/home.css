@@ -18,6 +18,13 @@
   margin: 10px;
 }
 
+.pageNumbers button{
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  background: #BEC1FA;
+}
+
 /* .slider {
   display: block;
   position: relative;
