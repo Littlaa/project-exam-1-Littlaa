@@ -13,6 +13,7 @@ async function getBlogPosts(url) {
                                     <a href="specific.html?postsId=${posts[i].id}">
                                     <div>${posts[i].title.rendered}</div>
                                     <img src="${posts[i].acf.image}">
+                                    <div class="read_more">Read More</div>
                                     </a>
                                     </div>
                                     `;
