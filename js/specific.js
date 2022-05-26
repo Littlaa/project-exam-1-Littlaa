@@ -11,9 +11,9 @@ async function callDetails() {
     const response = await fetch(url);
     const details = await response.json();
 
-    detailContainer.innerHTML += `
+    detailContainer.innerHTML += `<div class="content">
                                   ${details.content.rendered} 
-                                `;
+                                </div>`;
   } catch (error) {
     console.log(error);
   }

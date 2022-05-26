@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content img {
+    object-fit: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.content figcaption {
+    display: none;
+}
+
+.content h2, h3, p{
+    max-width: 300px;
+    text-align: left;
+}
+
