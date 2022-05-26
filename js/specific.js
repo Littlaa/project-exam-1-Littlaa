@@ -12,8 +12,13 @@ async function callDetails() {
     const details = await response.json();
 
     detailContainer.innerHTML += `<div class="content">
-                                  ${details.content.rendered} 
-                                </div>`;
+                                  <h1>${details.title.rendered}</h1>
+                                  <img src="${details.acf.image}">
+                                  </div> 
+                                  <div class="details">
+                                  ${details.acf.description}
+                                  </div>
+                                  `;
   } catch (error) {
     console.log(error);
   }
