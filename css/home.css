@@ -29,6 +29,11 @@
   background: #BEC1FA;
 }
 
+.pageNumbers button:hover {
+  background: none;
+  border: solid 1px #BEC1FA;
+}
+
 /* .slider {
   display: block;
   position: relative;

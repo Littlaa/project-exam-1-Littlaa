@@ -35,6 +35,11 @@ nav a {
     color: #000000;
 }
 
+nav a:hover {
+    border: solid 1px #BEC1FA;
+    padding: 3px;
+}
+
 body {
     min-height: 100vh;
     margin-left: 20px;

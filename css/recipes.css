@@ -22,3 +22,8 @@
       font-size: 18px;
       cursor: pointer;
 }
+
+.load_more:hover {
+    border: solid 1px #B8E3D4;
+    background: none;
+}
