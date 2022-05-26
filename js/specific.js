@@ -13,7 +13,7 @@ async function callDetails() {
 
     detailContainer.innerHTML += `<div class="content">
                                   <h1>${details.title.rendered}</h1>
-                                  <img src="${details.acf.image}">
+                                  <img src="${details.acf.image}" alt="${details.acf.alt}">
                                   </div> 
                                   <div class="details">
                                   ${details.acf.description}

@@ -64,7 +64,7 @@ function displayPosts(items, wrapper, rows_per_page, page, pageCount) {
     carouselResults.innerHTML += `<div class="containerPosts">
                                     <a href="specific.html?postsId=${item.id}">
                                     <div>${item.title.rendered}</div>
-                                    <img src="${item.acf.image}">
+                                    <img src="${item.acf.image}" alt="${item.acf.alt}">
                                     <div class="read_more">Read More</div>
                                     </a>
                                     </div>
