@@ -1,4 +1,8 @@
-    input, textarea {
+.nav_contact {
+  text-decoration: underline 2px #BEC1FA;
+}
+  
+  input, textarea {
     padding: 10px;
     width: 17em;
     margin-bottom: 15px;

@@ -1,3 +1,7 @@
+.nav_recipes {
+    text-decoration: underline 2px #BEC1FA;
+}
+
 .postsRecipes {
     display: flex;
     flex-direction: column;
