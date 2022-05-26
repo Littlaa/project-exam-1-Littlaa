@@ -3,7 +3,10 @@
 }
 
 .img_me {
-
     width: 200px;
     border: 1px solid;
+}
+
+.me_text {
+    max-width: 500px;
 }
