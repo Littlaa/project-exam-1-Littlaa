@@ -1,0 +1,12 @@
+@media (min-width: 800px) {
+    .containerPosts {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .logo_img {
+        max-width: 100px;
+    }
+}
+

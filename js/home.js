@@ -1,7 +1,7 @@
 const url = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=standard&per_page=20";
 
 const carouselResults = document.querySelector(".resultsCarousel");
-const paginationElement = document.querySelector(".pageNumbers");
+const paginationElement = document.querySelector(".pageArrow");
 
 let current_page = 0;
 let rows = 1;
@@ -45,8 +45,6 @@ async function getPosts() {
   }
 }
 
-getPosts();
-
 function displayPosts(items, wrapper, rows_per_page, page, pageCount) {
   wrapper.innerHTML = "";
 
@@ -71,3 +69,5 @@ function displayPosts(items, wrapper, rows_per_page, page, pageCount) {
                                     `;
   }
 }
+
+getPosts();
