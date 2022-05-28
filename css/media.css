@@ -2,11 +2,20 @@
     .containerPosts {
         width: 500px;
     }
+
+    .width_big {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 @media (min-width: 1000px) {
     .logo_img {
         max-width: 100px;
+    }
+
+    .width_big img {
+        width: 350px;
     }
 }
 

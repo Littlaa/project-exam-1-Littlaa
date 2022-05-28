@@ -68,20 +68,18 @@ p {
 }
 
 .error {
-    border: 4px double #611200;
+    border: 4px dotted #611200;
     padding: 15px;
-    background: #e9967a;
-    margin-left: 37%;
+    background: #F0D9C0;
   }
 
 .loading {
     border: 25px solid #f3f3f3;
-    border-top: 25px solid #a97148;
+    border-top: 25px solid #B8E3D4;
     border-radius: 100%;
     width: 80px;
     height: 80px;
     animation: spin 2s infinite;
-    margin-left: 45%;
   }
   
   @keyframes spin {

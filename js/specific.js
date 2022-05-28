@@ -22,6 +22,8 @@ async function callDetails() {
                                   </div>
                                   `;
 
+    addTitle(details);
+
     const modal = document.getElementById("simpleModal");
     const clickModal = document.getElementById("modalClick");
     const closeBtn = document.getElementsByClassName("close_btn")[0];
@@ -48,6 +50,10 @@ async function callDetails() {
     console.log(error);
     detailContainer.innerHTML = displayError("Oh no! Something went wrong while getting the posts");
   }
+}
+
+function addTitle(details) {
+  document.title = "HobbyBaker | " + details.title.rendered;
 }
 
 callDetails(url);
