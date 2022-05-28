@@ -20,6 +20,7 @@ async function callDetails() {
                                   <div class="details">
                                   ${details.acf.description}
                                   </div>
+                                  <div class="date">Posted ${details.date}</div>
                                   `;
 
     addTitle(details);

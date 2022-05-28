@@ -18,6 +18,11 @@
     max-width: 500px;
 }
 
+.date {
+    font-family: "candara", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
 .modal {
     display: none;
     position: fixed;
