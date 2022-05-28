@@ -2,7 +2,13 @@
   text-decoration: underline 2px #BEC1FA;
 }
   
-  input, textarea {
+label {
+  display: block;
+  font-family: "candara", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+input, textarea {
     padding: 10px;
     width: 17em;
     margin-bottom: 15px;
@@ -11,11 +17,11 @@
 
   }
 
-  textarea {
+textarea {
       min-height: 100px;
   }
 
-  button[type=submit] {
+button[type=submit] {
       background: #E8CADA;
       border: none;
       padding: 10px 35px 10px 35px;
@@ -24,13 +30,13 @@
       cursor: pointer;
   }
 
-  button[type=submit]:hover {
+button[type=submit]:hover {
     background: none;
     border: solid 1px #E8CADA;
     cursor: pointer;
   }
 
-  .form_error {
+.form_error {
     display: none;
     color: #bb0505;
     margin-bottom: 10px;
