@@ -11,6 +11,8 @@ async function callDetails() {
     const response = await fetch(url);
     const details = await response.json();
 
+    detailContainer.innerHTML = "";
+
     detailContainer.innerHTML += `<div class="content">
                                   <h1>${details.title.rendered}</h1>
                                   <img src="${details.acf.image}" alt="${details.acf.alt}" id="modalClick">
@@ -44,6 +46,7 @@ async function callDetails() {
     }
   } catch (error) {
     console.log(error);
+    detailContainer.innerHTML = displayError("Oh no! Something went wrong while getting the posts");
   }
 }
 

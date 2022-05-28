@@ -8,6 +8,8 @@ async function getBlogPosts(url) {
     const posts = await response.json();
 
     postsResults.innerHTML = "";
+
+    postsResults.innerHTML = "";
     for (let i = 0; i < posts.length; i++) {
       postsResults.innerHTML += `<div class="containerPosts">
                                     <a href="specific.html?postsId=${posts[i].id}">
@@ -20,6 +22,7 @@ async function getBlogPosts(url) {
     }
   } catch (error) {
     console.log(error);
+    postsResults.innerHTML = displayError("Oh no! Something went wrong while getting the posts");
   }
 }
 

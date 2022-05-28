@@ -42,6 +42,7 @@ async function getPosts() {
     return posts;
   } catch (error) {
     console.log(error);
+    carouselResults.innerHTML = displayError("Oh no! Something went wrong while getting the posts");
   }
 }
 
@@ -59,6 +60,9 @@ function displayPosts(items, wrapper, rows_per_page, page, pageCount) {
 
   for (let i = 0; i < paginatedItems.length; i++) {
     let item = paginatedItems[i];
+
+    carouselResults.innerHTML = "";
+
     carouselResults.innerHTML += `<div class="containerPosts">
                                     <a href="specific.html?postsId=${item.id}">
                                     <div>${item.title.rendered}</div>
