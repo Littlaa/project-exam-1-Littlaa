@@ -107,10 +107,10 @@ p {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 footer img {
-    max-width: 30px;
+    max-width: 40px;
 }

@@ -1,4 +1,8 @@
 @media (min-width: 800px) {
+    nav a {
+    font-size: 32px;
+    }
+
     .containerPosts {
         width: 500px;
     }
