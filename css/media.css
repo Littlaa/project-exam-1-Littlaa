@@ -1,3 +1,9 @@
+@media (min-width: 500px) {
+    .modal_content {
+        width: 50%;
+    }
+}
+
 @media (min-width: 800px) {
     nav a {
     font-size: 32px;
@@ -20,6 +26,10 @@
 
     .width_big img {
         width: 350px;
+    }
+
+    .modal_content {
+        width: 30%;
     }
 }
 

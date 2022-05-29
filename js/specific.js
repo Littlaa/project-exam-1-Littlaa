@@ -27,19 +27,13 @@ async function callDetails() {
 
     const modal = document.getElementById("simpleModal");
     const clickModal = document.getElementById("modalClick");
-    const closeBtn = document.getElementsByClassName("close_btn")[0];
 
     clickModal.addEventListener("click", openModal);
-    closeBtn.addEventListener("click", closeModal);
     window.addEventListener("click", outsideClick);
 
     function openModal() {
       modal.style.display = "grid";
       modal.innerHTML = `<img src="${details.acf.image}" alt="${details.acf.alt}" class="modal_content"></img>`;
-    }
-
-    function closeModal() {
-      modal.style.display = "none";
     }
 
     function outsideClick(e) {
