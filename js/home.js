@@ -3,7 +3,7 @@ const url = "https://littlaa.one/projectexam1/wp-json/wp/v2/posts?acf_format=sta
 const carouselResults = document.querySelector(".resultsCarousel");
 const paginationElement = document.querySelector(".pageArrow");
 
-let current_page = 0;
+let this_page = 0;
 let rows = 1;
 
 async function getPosts() {
@@ -12,7 +12,7 @@ async function getPosts() {
     const posts = await response.json();
     const pageCount = Math.ceil(posts.length / rows);
 
-    displayPosts(posts, carouselResults, rows, current_page, pageCount);
+    displayPosts(posts, carouselResults, rows, this_page, pageCount);
 
     function setupPagination(wrapper) {
       let leftBtn = paginationButton("<");
@@ -20,11 +20,11 @@ async function getPosts() {
       let rightBtn = paginationButton(">");
       wrapper.appendChild(rightBtn);
       leftBtn.addEventListener("click", function () {
-        displayPosts(posts, carouselResults, rows, --current_page, pageCount);
+        displayPosts(posts, carouselResults, rows, --this_page, pageCount);
       });
 
       rightBtn.addEventListener("click", function () {
-        displayPosts(posts, carouselResults, rows, ++current_page, pageCount);
+        displayPosts(posts, carouselResults, rows, ++this_page, pageCount);
       });
     }
 
@@ -32,7 +32,7 @@ async function getPosts() {
       let button = document.createElement("button");
       button.innerText = page;
 
-      if (current_page == page) button.classList.add("active");
+      if (this_page == page) button.classList.add("active");
 
       return button;
     }
@@ -50,10 +50,10 @@ function displayPosts(items, wrapper, rows_per_page, page, pageCount) {
   wrapper.innerHTML = "";
 
   if (page < 0) {
-    current_page = pageCount - 1;
+    this_page = pageCount - 1;
   }
 
-  let currentPage = current_page % pageCount;
+  let currentPage = this_page % pageCount;
   let start = rows_per_page * currentPage;
   let end = start + rows_per_page;
   let paginatedItems = items.slice(start, end);
