@@ -11,7 +11,7 @@ const addressError = document.querySelector("#messageError");
 function formValidation(event) {
   event.preventDefault();
 
-  if (minLength(fullName.value, 4)) {
+  if (minLength(fullName.value, 5)) {
     nameError.style.display = "none";
   } else {
     nameError.style.display = "block";
@@ -23,13 +23,13 @@ function formValidation(event) {
     emailError.style.display = "block";
   }
 
-  if (minLength(subject.value, 14)) {
+  if (minLength(subject.value, 15)) {
     subjectError.style.display = "none";
   } else {
     subjectError.style.display = "block";
   }
 
-  if (minLength(message.value, 24)) {
+  if (minLength(message.value, 25)) {
     messageError.style.display = "none";
   } else {
     messageError.style.display = "block";
