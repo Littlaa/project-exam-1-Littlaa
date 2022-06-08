@@ -17,30 +17,6 @@
 - HTML
 - CSS
 
-## Getting started
-
-### Installing
-
-1. Clone the repo:
-
-```
-git clone git@github.com:https://github.com/Noroff-FEU-Assignments/cross-course-project-Littlaa.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-To run the app, use this command:
-
-```
-npm run start
-```
-
 ## Contributing
 
 ## Contact
