@@ -32,3 +32,7 @@ If you want to contribute on this blog here are the steps you should follow:
 6. Create a pull request for merge.
 
 ## Contact
+
+if you want to contact me, here are my information:
+
+[my LinkedIn page](www.linkedin.com/in/mona-dagsland-56ba85226)
