@@ -35,4 +35,4 @@ If you want to contribute on this blog here are the steps you should follow:
 
 If you want to contact me, here is my information:
 
-[My LinkedIn page](www.linkedin.com/in/mona-dagsland-56ba85226)
+[My LinkedIn page](http://www.linkedin.com/in/mona-dagsland-56ba85226)
