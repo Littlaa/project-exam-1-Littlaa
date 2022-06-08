@@ -24,6 +24,11 @@
 
 If you want to contribute on this blog here are the steps you should follow:
 
-1.
+1. Fork the project to your own GitHub profile.
+2. Clone the fork on your local machine.
+3. Create a branch where you will push your code.
+4. Make changes - Comment the changes you do.
+5. Push changes to GitHub.
+6. Create a pull request for merge.
 
 ## Contact
