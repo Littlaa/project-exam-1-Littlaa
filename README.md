@@ -22,7 +22,7 @@
 
 ## Contributing
 
-If you want to contribute on this blog here are the steps you should follow:
+If you want to contribute to this blog here are the steps you should follow:
 
 1. Fork the project to your own GitHub profile.
 2. Clone the fork on your local machine.
